@@ -1,0 +1,522 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "dim_product",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "product_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "cee2c220-df39-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "product_code",
+                    "childRelationships": [
+                        "823ab4c0-df3c-11ec-8a37-53b3efd76a1b"
+                    ]
+                },
+                {
+                    "name": "product_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "c8bc5b40-df39-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "axe",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "07d72440-df3a-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "sub_axe",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "aa9070a0-df3b-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "hero_flag",
+                    "hackoladeMeta": {
+                        "namingConvention": "code"
+                    },
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "dataTypeMode": "Nullable",
+                            "exclusiveMinimum": false,
+                            "exclusiveMaximum": false,
+                            "childType": "bignumeric",
+                            "type": "numeric",
+                            "compositeKey": [
+                                "timeUnitpartitionKey",
+                                "rangePartitionKey",
+                                "clusteringKey"
+                            ],
+                            "timeUnitpartitionKey": false,
+                            "rangePartitionKey": false,
+                            "clusteringKey": false,
+                            "GUID": "c5dd28c0-df3c-11ec-8a37-53b3efd76a1b",
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "market_code",
+                            "error": {}
+                        },
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "dataTypeMode": "Nullable",
+                            "exclusiveMinimum": false,
+                            "exclusiveMaximum": false,
+                            "childType": "bignumeric",
+                            "type": "numeric",
+                            "compositeKey": [
+                                "timeUnitpartitionKey",
+                                "rangePartitionKey",
+                                "clusteringKey"
+                            ],
+                            "timeUnitpartitionKey": false,
+                            "rangePartitionKey": false,
+                            "clusteringKey": false,
+                            "GUID": "d35752f0-df3c-11ec-8a37-53b3efd76a1b",
+                            "arrayItem": true,
+                            "displayName": "super_hero_flag",
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "subtype": "array",
+                    "childType": "array",
+                    "type": "array",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "b50d9200-df3c-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "hr_flg"
+                },
+                {
+                    "name": "active_flag",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "4176f9e0-df40-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "adfad6b0-df39-11ec-8a37-53b3efd76a1b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "tableType": "Native",
+            "partitioning": "By ingestion time",
+            "partitioningType": "By day",
+            "encryption": "Google-managed",
+            "GUID": "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+            "code": "dim_pos",
+            "hackoladeMeta": {
+                "namingConvention": "code"
+            }
+        },
+        {
+            "collectionName": "fact_sellout_actual",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "order_number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "d0683ec0-df3b-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "order_item",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "d9ae3520-df3b-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "order_date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "childType": "timestamp",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "ed8825b0-df3b-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "market_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "5c12a3c0-df3c-11ec-8a37-53b3efd76a1b",
+                    "error": {}
+                },
+                {
+                    "name": "signature_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "f92b9410-df3b-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "product_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "2cf22020-df3c-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+                    "foreignField": [
+                        "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+                        "cee2c220-df39-11ec-8a37-53b3efd76a1b"
+                    ],
+                    "parentRelationship": "823ab4c0-df3c-11ec-8a37-53b3efd76a1b"
+                },
+                {
+                    "name": "point_of_sale_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "431a1f60-df3c-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "promotion_code",
+                    "hackoladeMeta": {
+                        "namingConvention": "code"
+                    },
+                    "isActivated": true,
+                    "dataTypeMode": "Nullable",
+                    "type": "string",
+                    "compositeKey": [
+                        "timeUnitpartitionKey",
+                        "rangePartitionKey",
+                        "clusteringKey"
+                    ],
+                    "timeUnitpartitionKey": false,
+                    "rangePartitionKey": false,
+                    "clusteringKey": false,
+                    "GUID": "9d6d26c0-df40-11ec-8a37-53b3efd76a1b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "prmtn_cd"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b71abc90-df3b-11ec-8a37-53b3efd76a1b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "tableType": "Native",
+            "partitioning": "By ingestion time",
+            "partitioningType": "",
+            "encryption": "Google-managed",
+            "GUID": "b7171310-df3b-11ec-8a37-53b3efd76a1b",
+            "hackoladeMeta": {
+                "namingConvention": "code"
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk dim_product.product_code to fact_sellout_actual.product_code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+                    "cee2c220-df39-11ec-8a37-53b3efd76a1b"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "b7171310-df3b-11ec-8a37-53b3efd76a1b",
+                    "2cf22020-df3c-11ec-8a37-53b3efd76a1b"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+            "childCollection": "b7171310-df3b-11ec-8a37-53b3efd76a1b",
+            "GUID": "823ab4c0-df3c-11ec-8a37-53b3efd76a1b"
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "adf4bc30-df39-11ec-8a37-53b3efd76a1b": "dim_product",
+        "c8bc5b40-df39-11ec-8a37-53b3efd76a1b": "product_name",
+        "cee2c220-df39-11ec-8a37-53b3efd76a1b": "product_code",
+        "07d72440-df3a-11ec-8a37-53b3efd76a1b": "axe",
+        "aa9070a0-df3b-11ec-8a37-53b3efd76a1b": "sub_axe",
+        "b7171310-df3b-11ec-8a37-53b3efd76a1b": "fact_sellout_actual",
+        "d0683ec0-df3b-11ec-8a37-53b3efd76a1b": "order_number",
+        "d9ae3520-df3b-11ec-8a37-53b3efd76a1b": "order_item",
+        "ed8825b0-df3b-11ec-8a37-53b3efd76a1b": "order_date",
+        "f92b9410-df3b-11ec-8a37-53b3efd76a1b": "signature_code",
+        "2cf22020-df3c-11ec-8a37-53b3efd76a1b": "product_code",
+        "431a1f60-df3c-11ec-8a37-53b3efd76a1b": "point_of_sale_code",
+        "5c12a3c0-df3c-11ec-8a37-53b3efd76a1b": "market_code",
+        "823ab4c0-df3c-11ec-8a37-53b3efd76a1b": "fk dim_product.product_code to fact_sellout_actual.product_code",
+        "b50d9200-df3c-11ec-8a37-53b3efd76a1b": "hero_flag",
+        "4176f9e0-df40-11ec-8a37-53b3efd76a1b": "active_flag",
+        "9d6d26c0-df40-11ec-8a37-53b3efd76a1b": "promotion_code"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "9432a640-df39-11ec-8a37-53b3efd76a1b"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "9432a642-df39-11ec-8a37-53b3efd76a1b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "9432a641-df39-11ec-8a37-53b3efd76a1b"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v2",
+    "dbVendor": "BigQuery",
+    "appTarget": "BigQuery",
+    "creationTS": "2022-05-29T10:24:53.411Z",
+    "GUID": "94327f30-df39-11ec-8a37-53b3efd76a1b",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-05-29T11:15:47.899Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "BigQuery",
+        "pluginVersion": "0.1.6",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.1.1"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "adf4bc30-df39-11ec-8a37-53b3efd76a1b",
+                        "x": 188,
+                        "y": 263,
+                        "width": 274,
+                        "height": 177,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b7171310-df3b-11ec-8a37-53b3efd76a1b",
+                        "x": 45,
+                        "y": 65,
+                        "width": 225,
+                        "height": 177,
+                        "color": {}
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
